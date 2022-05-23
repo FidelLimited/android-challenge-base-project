@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public name="fdl_primary_color" type="color"/>
+    <public name="fdl_error_color" type="color"/>
+    <public name="fdl_secondary_text_color" type="color"/>
+</resources>

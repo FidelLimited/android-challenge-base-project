@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextInputStyle" parent="Widget.Design.TextInputLayout">
+        <item name="hintTextAppearance">@style/InputHintTextSmall</item>
+        <item name="android:textColor">@color/fdl_primary_color</item>
+        <item name="colorControlNormal">@color/fdl_secondary_text_color</item>
+        <item name="colorControlActivated">@color/fdl_primary_color</item>
+        <item name="colorControlHighlight">@color/fdl_secondary_text_color</item>
+    </style>
+
+    <style name="InputHintTextSmall" parent="TextAppearance.Design.Hint">
+        <item name="android:textSize">@dimen/fdl_caption_size</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+
+</resources>
